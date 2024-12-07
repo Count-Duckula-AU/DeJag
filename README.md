@@ -5,7 +5,7 @@ Patches a 64x64 Pixel 24-bit .bmp into the Jaguar BIOS
 ## Usage:
 -Create one or more 64x64 pixel, 24-bit bmp images. Save into the '\BMP' subfolder of the script's location  
 -Run DeJag.ps1  
--The patched BIOS file(s) will be saved as '\Patched BIOS\boot<BMP_NAME>.rom'
+-The patched BIOS file(s) will be saved as '\Patched BIOS\boot-<BMP_NAME>.rom'
 
 
 - The following files must be in the same folder as the script:  
