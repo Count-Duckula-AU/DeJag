@@ -18,7 +18,6 @@ if (!(Test-Path ".\Patched BIOS\")) {write-host "No output folder found, creatin
 
 foreach ($BMP in $Input_BMPs)
     {
-    $BMPFullName = $BMP.FullName
     $BMPName = ".\BMP\"+$BMP.name
     $BMPBaseName = $BMP.basename
 
